@@ -16,6 +16,7 @@ main{
     height: 50vh;
 }
 input{
+    max-lines: 45;
     border-style: double;
     border-top: none;
     border-left: none;
