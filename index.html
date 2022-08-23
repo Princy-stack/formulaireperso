@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulaire</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- bootstrap css only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous"> 
+</head>
+<body>
+    <main>
+        <div class="container box">
+            <div class="row">
+                <h1>PLEASE ENTER YOUR INFORMATIONS</h1>
+                <div class="col-lg-2 name">
+                    <label for="name_container">Name :</label>
+                     <input type="text" id="name_container">
+                </div>
+                <div class="col-lg-2 first_name">
+                    First name :<label for="firstname_container"></label>
+                     <input type="text" id="firstname_container">
+                </div>
+                <div class="col-lg-2 age">
+                    Age :<label for="age_container"></label>
+                     <input type="number" id="age_container">
+                </div>
+                <div class="col-lg-2 age_of_birth">
+                    Age of birth:<label for="birth_container"></label>
+                    <input type="date" id="birth_container">
+                </div>
+                <div class="col-lg-2 adresse">
+                    Adresse :<label for="adresse_container"></label>
+                    <input type="text" id="adresse_container">
+                </div>
+                <div class="col-lg-2 number">
+                    Number :<label for="number_container"></label>
+                    <input type="number" id="number_container">
+                </div>
+            </div>
+        </div>
+
+        <div class="container bloc">
+            <div class="row">
+                <div class="col-lg-2">
+                    Name :<span id="bloc_name"></span>
+                </div>
+                <div class="col-lg-2">
+                    First name :<span id="bloc_first"></span>
+                </div>
+                <div class="col-lg-2">
+                   Age :<span id="bloc_age"></span>
+                </div>
+                <div class="col-lg-2">
+                    Age of birth :<span id="bloc_birth"></span>
+                </div>
+                <div class="col-lg-2">
+                    Adresse :<span id="bloc_adresse"></span>
+                </div>
+                <div class="col-lg-2">
+                Number :<span id="bloc_number"></span>
+                </div>
+            </div>
+        </div>
+    </main>
+
+  <script src="script.js"></script>  
+</body>
+</html>

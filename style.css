@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+main{
+    color: bisque;
+    background-color: rgb(0, 81, 105);
+    height: 100vh;
+}
+.box{
+    color: bisque;
+    text-align: left;
+    width: auto ;
+    display: flex;
+    align-items: center;
+    height: 50vh;
+}
+input{
+    border-style: double;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: bisque;
+    color: bisque;
+    outline: none;
+    background-color: rgb(0, 81, 105);
+}
+
